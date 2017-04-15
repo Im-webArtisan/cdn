@@ -1,0 +1,56 @@
+html,
+body{
+    background-image: url(img/latest.jpeg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+div:empty{
+    display: none;
+}
+/*
+#message-Area{
+    height: 500px;
+}
+*/
+
+#chat{
+    background-color: rgba(0,0,0,0.7);
+    padding: 10px 10px 10px 10px;
+    color: #fff;
+    border-radius: 10px ;
+    font-family: cursive;
+    
+}
+/*
+.flow{
+    max-height: 450px;
+    overflow: scroll;
+}
+*/
+.title{
+    color: #fff;
+}
+#contentWrap{
+    display: none;
+}
+#users{
+    position: fixed;
+}
+.well{
+    text-align: center;
+    background-color: inherit;
+}
+.users{
+    //text-align: center;
+}
+.error{
+    color: red;
+}
+.whisper{
+    font-style: italic;
+}
