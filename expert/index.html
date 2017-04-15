@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <!--bootstrap css-->
+    <link rel="stylesheet" href="http://localhost/cdn/css/cyborg.css">
+    <!--custom css-->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="jumbotron container-fluid">
+        <h1 class="text-center title">Welcome to PC Masters</h1>
+        <p class="text-center">What's your PC Problem, talk to Artisan...</p>
+    </div>
+
+    <!--chat system-->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <form id="form">
+                    <h2 class="text-center">Please Choose Your PC Category</h2>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <button class="btn btn-primary btn-block" id="desktop">Desktop</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <button class="btn btn-primary btn-block" id="laptop">Laptop</button>
+                        </div>
+                        </div>
+                    </div>
+                </form>
+                <br>
+            </div>
+        </div>
+    </div>
+
+    <!--options-->
+    <div class="container">
+        <div class="row ">
+            <div class="col-lg-12  text-center">
+                <div id="search" >
+                    <form>
+                        <h2 class="text-center">Hardware Category</h2>
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <div class="form-group">
+                                    <button class="btn btn-primary btn-block" id="usb">USB</button>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="form-group">
+                                    <button class="btn btn-primary btn-block" id="keyboard">Keyboard</button>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="form-group">
+                                    <button class="btn btn-primary btn-block" id="screen">Screen</button>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="form-group">
+                                    <button class="btn btn-primary btn-block" id="network">Network</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--usb-->
+    <div class="container text-center" id="usbData">
+        <div class="row ">
+            <h2 class="text-center">Please check your problems</h2>
+            <hr>
+            <br>
+            <div class="col-lg-6 col-lg-offset-3">
+                <div class="table-responsive">
+                    <table class="table">
+                        <tr>
+                            <td>
+                                Is your USB device being detected?
+                            </td>
+                            <td>
+                                <input type="checkbox" name="usb">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Is your USB device rewritable?
+                            </td>
+                            <td>
+                                <input type="checkbox" name="usb">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Is your USB device installing?
+                            </td>
+                            <td>
+                                <input type="checkbox" name="usb">
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--keyboard-->
+    <div class="container text-center" id="keyboardData">
+        <div class="row ">
+            <h2 class="text-center">Please check your problems</h2>
+            <hr>
+            <br>
+            <div class="col-lg-6 col-lg-offset-3">
+                <div class="table-responsive">
+                    <table class="table">
+                        <tr>
+                            <td>
+                                Is your keyboard working?
+                            </td>
+                            <td>
+                                <input type="checkbox" name="keyboard">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Are all keys functioning?
+                            </td>
+                            <td>
+                                <input type="checkbox" name="keyboard">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Are LED lights on?
+                            </td>
+                            <td>
+                                <input type="checkbox" name="usb">
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--network-->
+    <div class="container text-center" id="networkData">
+        <div class="row ">
+            <h2 class="text-center">Please check your problems</h2>
+            <hr>
+            <br>
+            <div class="col-lg-6 col-lg-offset-3">
+                <div class="table-responsive">
+                    <table class="table">
+                        <tr>
+                            <td>
+                                Slow application response.
+                            </td>
+                            <td>
+                                <input type="checkbox" name="keyboard" id="network-1">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                IP Conflicts
+                            </td>
+                            <td>
+                                <input type="checkbox" name="keyboard" id="network-2">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Wireless network shows signal but won’t connect.
+                            </td>
+                            <td>
+                                <input type="checkbox" name="usb" id="network-3">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Cable Problem.
+                            </td>
+                            <td>
+                                <input type="checkbox" name="usb" id="network-4">
+                            </tr>
+                        <tr>
+                            <td>
+                                Connectivity Problem
+                            </td>
+                            <td>
+                                <input type="checkbox" name="usb" id="network-5">
+                            </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--network solution-->
+    <div class="container text-center" id="networkSoln">
+        <div class="row ">
+            <h2 class="text-center" id="sol">Possible Solutions</h2>
+            <hr>
+            <br>
+            <div class="col-lg-6 col-lg-offset-3">
+                <div class="table-responsive ">
+                    <table class="table">
+                        <!--SLOW RESPONSE-->
+                        <tr id="sol1">
+                            <th class="text-center" >
+                                <h3>Slow Application Response</h3>
+                            </th>
+                        </tr>
+                        <tr id="sol2">
+                            <td>
+                                This is a sign of high bandwidth use, due to people viewing videos or downloading large files.
+                                <span class="soln">Soln: enforce proper network use.
+                                    Upgrading your network to properly fit your expanding needs.</span>
+                            </td>
+                        </tr>
+                        <!--IP-->
+                        <tr id="sol3">
+                            <th class="text-center" >
+                                <h3>IP conflicts</h3>
+                            </th>
+                        </tr>
+                        <tr id="sol4">
+                            <td>
+                                <span class="soln">Soln: reconfiguring your DHCP setup to ensure that static IP addresses are excluded from the pool.</span>
+                            </td>
+                        </tr>
+
+                        <!--WIRELESS-->
+                        <tr id="sol5">
+                            <th class="text-center" >
+                                <h3>Wireless network shows signal but won’t connect.</h3>
+                            </th>
+                        </tr>
+                        <tr id="sol6">
+                            <td>
+                                <span class="soln">Soln: try putting the computer right next to the wireless router and see if it connects if it doesn’t
+                                    then that suggests a problem with the system hardware. A network card receives a strong signal
+                                    but doesn’t transmit as effectively. Updating the network card’s driver might solve this problem or sometimes it needs to be replaced.</span>
+                            </td>
+                        </tr>
+
+                        <!--CABLES-->
+                        <tr id="sol7">
+                            <th class="text-center" >
+                                <h3>Cable problem</h3>
+                            </th>
+                        </tr>
+                        <tr id="sol8">
+                            <td>
+                                Cables that connect different parts of a network can be cut or shorted. A short can happen when conductors come in contact with another conductive surface, changing the path of the signal.
+                                <span class="soln">Soln: Cable tester can be used to test these cut cables, incorrect cable connection, cable shorts interference level and connector problem.</span>
+                            </td>
+                        </tr>
+
+                        <!--CABLES-->
+                        <tr id="sol9">
+                            <th class="text-center" >
+                                <h3>Connectivity problem</h3>
+                            </th>
+                        </tr>
+                        <tr id="sol10">
+                            <td>
+                                <span class="soln">Soln: check if the network configurations are correct.</span>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!--scripts-->
+    <script src="http://localhost/cdn/js/jquery.js"></script>
+    <script src="http://localhost/cdn/js/jquery-ui.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

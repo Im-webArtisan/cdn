@@ -1,0 +1,13 @@
+.title{
+    font-weight:700;
+}
+
+hr{
+    width: 100px;
+    margin: auto;
+    border-width: 3px;
+    border-color: #f44336;
+}
+.soln{
+    color: #f44336;
+}
